@@ -1,13 +1,13 @@
 package com.example.mvvmreciper.network.responses
 
-import com.example.mvvmreciper.network.model.RecipeNetworkEntity
+import com.example.mvvmreciper.network.model.RecipeDto
 import com.google.gson.annotations.SerializedName
 
 
-class RecipeSearchResponse(
+data class RecipeSearchResponse(
     @SerializedName("count")
     var count: Int,
 
     @SerializedName("results")
-    var results: List<RecipeNetworkEntity>,
+    var recipes: List<RecipeDto>,
 )
