@@ -7,6 +7,7 @@ buildscript {
         hilt_lifecycle = '1.0.0-alpha03'
         retrofit_version = '2.9.0'
         nav_version = '2.3.5'
+        glide_version = '4.11.0'
     }
     repositories {
         google()
